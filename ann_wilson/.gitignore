@@ -1,0 +1,42 @@
+# ========== Node & Dependencies ==========
+node_modules/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========== Next.js ==========
+.next/
+out/
+.vercel
+/build
+
+# ========== Express / Backend ==========
+*.sqlite
+*.sqlite3
+*.db
+*.log
+/backend/node_modules/
+/backend/.env
+/backend/coverage/
+
+# ========== General ==========
+.env*
+.DS_Store
+*.pem
+coverage/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# ========== Yarn (optional) ==========
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ========== Optional MacOS Trash ==========
+.Trashes
